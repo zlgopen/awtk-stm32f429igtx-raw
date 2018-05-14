@@ -25,7 +25,6 @@
 #include "base/platform.h"
 
 uint32_t get_time_ms() {
-
   return HAL_GetTick();
 }
 
@@ -37,11 +36,6 @@ void sleep_ms(uint32_t ms) {
 #define MEM2_ADDR (uint8_t*)0XC01F4000
 
 ret_t platform_prepare(void) {
-  CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
-
-  DWT->CYCCNT = 0;
-  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
-
 	timer_init(get_time_ms);
 	mem_init(MEM2_ADDR, MEM2_MAX_SIZE);
 	

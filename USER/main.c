@@ -31,7 +31,7 @@
 #include "base/lcd.h"
 #include "base/mem.h"
 
-extern int gui_app_start(void);
+extern int gui_app_start(int lcd_w, int lcd_h);
 
 int main(void)
 {	
@@ -47,5 +47,5 @@ int main(void)
 
   tp_dev.init();
 		
-	return gui_app_start();
+	return gui_app_start(lcdltdc.pwidth, lcdltdc.pheight);
 }

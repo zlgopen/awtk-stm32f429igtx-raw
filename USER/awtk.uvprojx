@@ -1061,9 +1061,9 @@
               <FilePath>..\awtk\src\xml\xml_parser.c</FilePath>
             </File>
             <File>
-              <FileName>window_animator_null.c</FileName>
+              <FileName>window_animator_fb.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\animator\window_animator_null.c</FilePath>
+              <FilePath>..\awtk\src\animator\window_animator_fb.c</FilePath>
             </File>
           </Files>
         </Group>

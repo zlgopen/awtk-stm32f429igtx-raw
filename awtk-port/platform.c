@@ -25,9 +25,8 @@
 #include "base/platform.h"
 
 uint32_t get_time_ms() {
-  uint32_t cnt = DWT->CYCCNT;
-  /*TODO*/
-	return cnt; 
+
+  return HAL_GetTick();
 }
 
 void sleep_ms(uint32_t ms) {

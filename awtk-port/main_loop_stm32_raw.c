@@ -64,7 +64,7 @@ uint8_t platform_disaptch_input(main_loop_t* loop) {
 	x = tp_dev.x[0];
 	y = tp_dev.y[0]; 
 
-	y = 480 - tp_dev.x[0];
+	y = lcdltdc.pheight - tp_dev.x[0];
 	x = tp_dev.y[0]; 
 	
 	if(tp_dev.sta&TP_PRES_DOWN){     
@@ -77,7 +77,7 @@ uint8_t platform_disaptch_input(main_loop_t* loop) {
 }
 
 lcd_t* platform_create_lcd(wh_t w, wh_t h) {
-  return lcd_mem_create_double_fb(lcdltdc.pwidth, lcdltdc.pheight, online_fb_addr, offline_fb_addr);
+  return lcd_mem_create_double_fb(w, h, online_fb_addr, offline_fb_addr);
 }
 
 #include "main_loop/main_loop_raw.inc"

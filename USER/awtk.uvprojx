@@ -1063,7 +1063,7 @@
             <File>
               <FileName>window_animator_fb.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\animator\window_animator_fb.c</FilePath>
+              <FilePath>..\awtk\src\window_animators\window_animator_fb.c</FilePath>
             </File>
           </Files>
         </Group>

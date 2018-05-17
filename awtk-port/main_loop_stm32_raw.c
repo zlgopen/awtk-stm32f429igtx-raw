@@ -42,17 +42,11 @@
 #include "base/idle.h"
 #include "base/timer.h"
 #include "lcd/lcd_mem.h"
-#include "base/main_loop.h"
-#include "base/platform.h"
-#include "base/event_queue.h"
-#include "base/font_manager.h"
-#include "base/window_manager.h"
+#include "main_loop/main_loop_simple.h"
 
 extern u32 *ltdc_framebuf[2];
 #define online_fb_addr (uint8_t*)ltdc_framebuf[0]
 #define offline_fb_addr (uint8_t*)ltdc_framebuf[1]
-
-static ret_t post_touch_events(main_loop_t* loop, bool_t pressed, xy_t x, xy_t y);
 
 uint8_t platform_disaptch_input(main_loop_t* loop) {
 	int x = 0;
@@ -68,9 +62,9 @@ uint8_t platform_disaptch_input(main_loop_t* loop) {
 	x = tp_dev.y[0]; 
 	
 	if(tp_dev.sta&TP_PRES_DOWN){     
-		post_touch_events(loop, TRUE, x, y);
+		main_loop_post_pointer_event(loop, TRUE, x, y);
 	} else {
-		post_touch_events(loop, FALSE, x, y);
+		main_loop_post_pointer_event(loop, FALSE, x, y);
 	}
 	
   return 0;

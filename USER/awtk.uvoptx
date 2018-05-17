@@ -159,7 +159,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\HARDWARE\LCD\ltdc.c</Filename>
+          <Filename>\\vmware-host\Shared Folders\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\HARDWARE\LCD\ltdc.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\awtk\../HARDWARE/LCD/ltdc.c\35</Expression>
         </Bp>
@@ -175,7 +175,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\HARDWARE\LCD\ltdc.c</Filename>
+          <Filename>\\vmware-host\Shared Folders\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\HARDWARE\LCD\ltdc.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\awtk\../HARDWARE/LCD/ltdc.c\32</Expression>
         </Bp>

@@ -334,7 +334,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls>--gnu</MiscControls>
-              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_BITMAP_FONT</Define>
+              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D1,WITH_BITMAP_FONT</Define>
               <Undefine></Undefine>
               <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\picasso\src;..\awtk\3rd\picasso\src\gfx;..\awtk\3rd\picasso\include;..\awtk\3rd\picasso\src\include;..\awtk\3rd\picasso\build;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC</IncludePath>
             </VariousControls>
@@ -981,24 +981,19 @@
               <FilePath>..\awtk\src\tk.c</FilePath>
             </File>
             <File>
-              <FileName>blend.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\blend\blend.c</FilePath>
-            </File>
-            <File>
               <FileName>blend_image_565_565.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\blend\blend_image_565_565.c</FilePath>
             </File>
             <File>
-              <FileName>blend_image_565_8888.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\blend\blend_image_565_8888.c</FilePath>
-            </File>
-            <File>
               <FileName>blend_image_8888_565.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\blend\blend_image_8888_565.c</FilePath>
+            </File>
+            <File>
+              <FileName>blend_image_565_8888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\blend_image_565_8888.c</FilePath>
             </File>
             <File>
               <FileName>blend_image_8888_8888.c</FileName>
@@ -1074,6 +1069,26 @@
               <FileName>mutex.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\platforms\raw\mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator_move.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widget_animators\widget_animator_move.c</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator_value.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widget_animators\widget_animator_value.c</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\widget_animator.c</FilePath>
+            </File>
+            <File>
+              <FileName>soft_g2d.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\soft_g2d.c</FilePath>
             </File>
           </Files>
         </Group>

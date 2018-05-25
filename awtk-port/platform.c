@@ -37,7 +37,7 @@ void sleep_ms(uint32_t ms) {
 
 ret_t platform_prepare(void) {
 	timer_init(get_time_ms);
-	mem_init(MEM2_ADDR, MEM2_MAX_SIZE);
+	tk_mem_init(MEM2_ADDR, MEM2_MAX_SIZE);
 	
 	return RET_OK;
 }

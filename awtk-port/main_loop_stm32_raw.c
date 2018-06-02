@@ -41,7 +41,7 @@
 #include "base/g2d.h"
 #include "base/idle.h"
 #include "base/timer.h"
-#include "lcd/lcd_mem.h"
+#include "lcd/lcd_mem_rgb565.h"
 #include "main_loop/main_loop_simple.h"
 
 extern u32 *ltdc_framebuf[2];
@@ -71,7 +71,7 @@ uint8_t platform_disaptch_input(main_loop_t* loop) {
 }
 
 lcd_t* platform_create_lcd(wh_t w, wh_t h) {
-  return lcd_mem_create_double_fb(w, h, online_fb_addr, offline_fb_addr);
+  return lcd_mem_rgb565_create_double_fb(w, h, online_fb_addr, offline_fb_addr);
 }
 
 #include "main_loop/main_loop_raw.inc"

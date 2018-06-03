@@ -713,16 +713,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>README</GroupName>
-          <Files>
-            <File>
-              <FileName>readme.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\readme.txt</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>AWTK</GroupName>
           <Files>
             <File>
@@ -1066,11 +1056,6 @@
               <FilePath>..\awtk\src\main_loop\main_loop_simple.c</FilePath>
             </File>
             <File>
-              <FileName>mutex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\platforms\raw\mutex.c</FilePath>
-            </File>
-            <File>
               <FileName>widget_animator_move.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\widget_animators\widget_animator_move.c</FilePath>
@@ -1090,6 +1075,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\blend\soft_g2d.c</FilePath>
             </File>
+            <File>
+              <FileName>new.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\awtk\src\misc\new.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1104,6 +1094,11 @@
               <FileName>platform.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk-port\platform.c</FilePath>
+            </File>
+            <File>
+              <FileName>mutex_null.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\platforms\raw\mutex_null.c</FilePath>
             </File>
           </Files>
         </Group>

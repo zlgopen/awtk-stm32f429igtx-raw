@@ -334,7 +334,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls>--gnu</MiscControls>
-              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_BITMAP_FONT</Define>
+              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_BITMAP_FONT,WITH_STB_IMAGE</Define>
               <Undefine></Undefine>
               <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\picasso\src;..\awtk\3rd\picasso\src\gfx;..\awtk\3rd\picasso\include;..\awtk\3rd\picasso\src\include;..\awtk\3rd\picasso\build;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC</IncludePath>
             </VariousControls>
@@ -1079,6 +1079,31 @@
               <FileName>new.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>..\awtk\src\misc\new.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator_opacity.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widget_animators\widget_animator_opacity.c</FilePath>
+            </File>
+            <File>
+              <FileName>velocity.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\velocity.c</FilePath>
+            </File>
+            <File>
+              <FileName>slide_view.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\slide_view.c</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator_scroll.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widget_animators\widget_animator_scroll.c</FilePath>
+            </File>
+            <File>
+              <FileName>image_loader_stb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\image_loader\image_loader_stb.c</FilePath>
             </File>
           </Files>
         </Group>

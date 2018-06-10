@@ -333,8 +333,8 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls>--gnu</MiscControls>
-              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_BITMAP_FONT,WITH_STB_IMAGE</Define>
+              <MiscControls></MiscControls>
+              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_STB_IMAGE,WITH_BITMAP_RGB565,WITH_STB_FONT</Define>
               <Undefine></Undefine>
               <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\picasso\src;..\awtk\3rd\picasso\src\gfx;..\awtk\3rd\picasso\include;..\awtk\3rd\picasso\src\include;..\awtk\3rd\picasso\build;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC</IncludePath>
             </VariousControls>
@@ -1104,6 +1104,16 @@
               <FileName>image_loader_stb.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\image_loader\image_loader_stb.c</FilePath>
+            </File>
+            <File>
+              <FileName>font_stb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\font\font_stb.c</FilePath>
+            </File>
+            <File>
+              <FileName>glyph_cache.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\glyph_cache.c</FilePath>
             </File>
           </Files>
         </Group>

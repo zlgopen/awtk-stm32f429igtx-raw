@@ -32,8 +32,8 @@ void sleep_ms(uint32_t ms) {
   delay_ms(ms);
 }
 
-#define MEM2_MAX_SIZE		28912 * 1024 
-#define MEM2_ADDR (uint8_t*)0XC01F4000
+#define MEM2_MAX_SIZE		8 * 1024 * 1024 
+#define MEM2_ADDR (uint8_t*)0XC01F8000
 
 ret_t platform_prepare(void) {
 	timer_init(get_time_ms);

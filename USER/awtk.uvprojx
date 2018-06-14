@@ -1115,6 +1115,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\glyph_cache.c</FilePath>
             </File>
+            <File>
+              <FileName>image_g2d.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\image_g2d.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

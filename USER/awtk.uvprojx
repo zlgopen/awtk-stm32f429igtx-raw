@@ -1120,6 +1120,21 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\blend\image_g2d.c</FilePath>
             </File>
+            <File>
+              <FileName>widget_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\widget_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>pages.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\pages.c</FilePath>
+            </File>
+            <File>
+              <FileName>keyboard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\keyboard.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

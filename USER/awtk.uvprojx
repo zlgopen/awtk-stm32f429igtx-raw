@@ -1135,6 +1135,21 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\keyboard.c</FilePath>
             </File>
+            <File>
+              <FileName>input_method.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\input_method.c</FilePath>
+            </File>
+            <File>
+              <FileName>tokenizer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\tokenizer.c</FilePath>
+            </File>
+            <File>
+              <FileName>input_method_default.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\input_methods\input_method_default.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

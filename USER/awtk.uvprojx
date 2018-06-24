@@ -334,7 +334,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_STB_IMAGE,WITH_BITMAP_RGB565,WITH_STB_FONT,WITH_BITMAP_BGRA</Define>
+              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_STB_IMAGE,WITH_BITMAP_RGB565,WITH_STB_FONT,WITH_BITMAP_BGRA,WITH_MINI_FONT</Define>
               <Undefine></Undefine>
               <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\picasso\src;..\awtk\3rd\picasso\src\gfx;..\awtk\3rd\picasso\include;..\awtk\3rd\picasso\src\include;..\awtk\3rd\picasso\build;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC</IncludePath>
             </VariousControls>
@@ -1149,6 +1149,21 @@
               <FileName>input_method_default.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\input_methods\input_method_default.c</FilePath>
+            </File>
+            <File>
+              <FileName>input_engine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\input_engine.c</FilePath>
+            </File>
+            <File>
+              <FileName>input_engine_null.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\input_engines\input_engine_null.c</FilePath>
+            </File>
+            <File>
+              <FileName>candidates.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\candidates.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1185,6 +1185,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\scroll_bar.c</FilePath>
             </File>
+            <File>
+              <FileName>scroll_view.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\scroll_view.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

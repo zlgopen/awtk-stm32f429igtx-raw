@@ -1190,6 +1190,16 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\scroll_view.c</FilePath>
             </File>
+            <File>
+              <FileName>list_item.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\list_item.c</FilePath>
+            </File>
+            <File>
+              <FileName>list_view.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\list_view.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

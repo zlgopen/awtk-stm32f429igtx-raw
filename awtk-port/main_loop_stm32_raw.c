@@ -70,9 +70,13 @@ uint8_t platform_disaptch_input(main_loop_t* loop) {
   return 0;
 }
 
+
+extern lcd_t* stm32f429_create_lcd(wh_t w, wh_t h);
+
 lcd_t* platform_create_lcd(wh_t w, wh_t h) {
-  return lcd_mem_rgb565_create_double_fb(w, h, online_fb_addr, offline_fb_addr);
+  return stm32f429_create_lcd(w, h);
 }
+
 
 #include "main_loop/main_loop_raw.inc"
 

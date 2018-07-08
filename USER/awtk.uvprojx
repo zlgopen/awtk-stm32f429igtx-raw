@@ -616,11 +616,6 @@
               <FilePath>..\HARDWARE\W25QXX\w25qxx.c</FilePath>
             </File>
             <File>
-              <FileName>ftl.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\NAND\ftl.c</FilePath>
-            </File>
-            <File>
               <FileName>nand.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\NAND\nand.c</FilePath>
@@ -664,53 +659,6 @@
         </Group>
         <Group>
           <GroupName>MALLOC</GroupName>
-          <Files>
-            <File>
-              <FileName>malloc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MALLOC\malloc.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>FATFS</GroupName>
-          <Files>
-            <File>
-              <FileName>ff.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\FATFS\src\ff.c</FilePath>
-            </File>
-            <File>
-              <FileName>diskio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\FATFS\src\diskio.c</FilePath>
-            </File>
-            <File>
-              <FileName>exfuns.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\FATFS\exfuns\exfuns.c</FilePath>
-            </File>
-            <File>
-              <FileName>mycc936.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\FATFS\exfuns\mycc936.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>TEXT</GroupName>
-          <Files>
-            <File>
-              <FileName>fontupd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\TEXT\fontupd.c</FilePath>
-            </File>
-            <File>
-              <FileName>text.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\TEXT\text.c</FilePath>
-            </File>
-          </Files>
         </Group>
         <Group>
           <GroupName>AWTK</GroupName>
@@ -1199,6 +1147,16 @@
               <FileName>list_view.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\list_view.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd_mem_rgba8888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\lcd\lcd_mem_rgba8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd_mem_bgra8888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\lcd\lcd_mem_bgra8888.c</FilePath>
             </File>
           </Files>
         </Group>

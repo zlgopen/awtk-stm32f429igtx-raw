@@ -48,8 +48,12 @@ extern DMA2D_HandleTypeDef DMA2D_Handler;   //DMA2D句柄
 ///////////////////////////////////////////////////////////////////////
 //用户修改配置部分:
 
+#define LCD_PIXFORMAT_ARGB8888 LCD_PIXEL_FORMAT_ARGB8888 
+#define LCD_PIXFORMAT_RGB888 LCD_PIXEL_FORMAT_RGB888
+
 //定义颜色像素格式,一般用RGB565
 #define LCD_PIXFORMAT				LCD_PIXEL_FORMAT_RGB565	
+//#define LCD_PIXFORMAT				LCD_PIXEL_FORMAT_ARGB8888	
 //定义默认背景层颜色
 #define LTDC_BACKLAYERCOLOR			0X00000000	
 //LCD帧缓冲区首地址,这里定义在SDRAM里面.

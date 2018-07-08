@@ -3,7 +3,7 @@
  * author: li xianjing <xianjimli@hotmail.com>
  * brief:  platform dependent function of stm32
  *
- * copyright (c) 2018 - 2018 Guangzhou ZHIYUAN Electronics Co.,Ltd. 
+ * copyright (c) 2018 - 2018 Guangzhou ZHIYUAN Electronics Co.,Ltd.
  *
  * this program is distributed in the hope that it will be useful,
  * but without any warranty; without even the implied warranty of
@@ -32,13 +32,12 @@ void sleep_ms(uint32_t ms) {
   delay_ms(ms);
 }
 
-
-#define MEM2_MAX_SIZE		8 * 1024 * 1024 
+#define MEM2_MAX_SIZE 8 * 1024 * 1024
 #define MEM2_ADDR (uint8_t*)0XC0000000 + 5 * 1024 * 1024
 
 ret_t platform_prepare(void) {
-	timer_init(get_time_ms);
-	tk_mem_init(MEM2_ADDR, MEM2_MAX_SIZE);
-	
-	return RET_OK;
+  timer_init(get_time_ms);
+  tk_mem_init(MEM2_ADDR, MEM2_MAX_SIZE);
+
+  return RET_OK;
 }

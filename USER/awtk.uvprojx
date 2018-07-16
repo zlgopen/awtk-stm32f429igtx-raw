@@ -954,19 +954,9 @@
               <FilePath>..\awtk\src\vgcanvas\vgcanvas_picasso.cpp</FilePath>
             </File>
             <File>
-              <FileName>ui_builder.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\ui_loader\ui_builder.c</FilePath>
-            </File>
-            <File>
               <FileName>ui_builder_default.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ui_loader\ui_builder_default.c</FilePath>
-            </File>
-            <File>
-              <FileName>ui_builder_writer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\ui_loader\ui_builder_writer.c</FilePath>
             </File>
             <File>
               <FileName>ui_loader.c</FileName>
@@ -1157,6 +1147,41 @@
               <FileName>lcd_mem_bgra8888.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\lcd\lcd_mem_bgra8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>ui_builder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\ui_builder.c</FilePath>
+            </File>
+            <File>
+              <FileName>ui_binary_writer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ui_loader\ui_binary_writer.c</FilePath>
+            </File>
+            <File>
+              <FileName>ui_serializer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ui_loader\ui_serializer.c</FilePath>
+            </File>
+            <File>
+              <FileName>ui_xml_writer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ui_loader\ui_xml_writer.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_open.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ui_loader\window_open.c</FilePath>
+            </File>
+            <File>
+              <FileName>dialog_client.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\dialog_client.c</FilePath>
+            </File>
+            <File>
+              <FileName>dialog_title.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\dialog_title.c</FilePath>
             </File>
           </Files>
         </Group>

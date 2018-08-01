@@ -334,9 +334,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_STB_IMAGE,WITH_BITMAP_RGB565,WITH_STB_FONT,WITH_BITMAP_BGRA,WITH_MINI_FONT,WITH_DYNAMIC_TR</Define>
+              <Define>USE_HAL_DRIVER,STM32F429xx,USE_GUI_MAIN,WITH_G2D,WITH_STB_IMAGE,WITH_BITMAP_RGB565,WITH_STB_FONT,WITH_BITMAP_BGRA,WITH_MINI_FONT,WITH_DYNAMIC_TR,WITH_UNICODE_BREAK</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\picasso\src;..\awtk\3rd\picasso\src\gfx;..\awtk\3rd\picasso\include;..\awtk\3rd\picasso\src\include;..\awtk\3rd\picasso\build;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC</IncludePath>
+              <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\picasso\src;..\awtk\3rd\picasso\src\gfx;..\awtk\3rd\picasso\include;..\awtk\3rd\picasso\src\include;..\awtk\3rd\picasso\build;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC;..\awtk\3rd\libunibreak\src;..\awtk\src\ext_widgets</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1188,6 +1188,61 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\custom_props.c</FilePath>
             </File>
+            <File>
+              <FileName>button_group.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\button_group.c</FilePath>
+            </File>
+            <File>
+              <FileName>list_view_h.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\list_view_h.c</FilePath>
+            </File>
+            <File>
+              <FileName>rom_fs.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\rom_fs.c</FilePath>
+            </File>
+            <File>
+              <FileName>tab_button.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\tab_button.c</FilePath>
+            </File>
+            <File>
+              <FileName>tab_button_group.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\tab_button_group.c</FilePath>
+            </File>
+            <File>
+              <FileName>tab_control.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\tab_control.c</FilePath>
+            </File>
+            <File>
+              <FileName>color_parser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\color_parser.c</FilePath>
+            </File>
+            <File>
+              <FileName>combo_box.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\combo_box.c</FilePath>
+            </File>
+            <File>
+              <FileName>combo_box_item.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\combo_box_item.c</FilePath>
+            </File>
+            <File>
+              <FileName>line_break.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\line_break.c</FilePath>
+            </File>
+            <File>
+              <FileName>popup.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\popup.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1377,6 +1432,71 @@
               <FileName>demo_ui_app.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\demos\demo_ui_app.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>LIBUNIBREAK</GroupName>
+          <Files>
+            <File>
+              <FileName>graphemebreak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\libunibreak\src\graphemebreak.c</FilePath>
+            </File>
+            <File>
+              <FileName>linebreak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\libunibreak\src\linebreak.c</FilePath>
+            </File>
+            <File>
+              <FileName>linebreakdef.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\libunibreak\src\linebreakdef.c</FilePath>
+            </File>
+            <File>
+              <FileName>unibreakbase.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\libunibreak\src\unibreakbase.c</FilePath>
+            </File>
+            <File>
+              <FileName>unibreakdef.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\libunibreak\src\unibreakdef.c</FilePath>
+            </File>
+            <File>
+              <FileName>wordbreak.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\libunibreak\src\wordbreak.c</FilePath>
+            </File>
+            <File>
+              <FileName>linebreakdata.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\libunibreak\src\linebreakdata.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>EXT_WIDGETS</GroupName>
+          <Files>
+            <File>
+              <FileName>rich_text.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\rich_text\rich_text.c</FilePath>
+            </File>
+            <File>
+              <FileName>rich_text_node.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\rich_text\rich_text_node.c</FilePath>
+            </File>
+            <File>
+              <FileName>rich_text_parser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\rich_text\rich_text_parser.c</FilePath>
+            </File>
+            <File>
+              <FileName>rich_text_render_node.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\rich_text\rich_text_render_node.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1243,6 +1243,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\input_methods\input_method_creator.c</FilePath>
             </File>
+            <File>
+              <FileName>color_tile.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\color_tile.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1497,6 +1502,26 @@
               <FileName>rich_text_render_node.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\rich_text\rich_text_render_node.c</FilePath>
+            </File>
+            <File>
+              <FileName>ext_widgets.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\ext_widgets.c</FilePath>
+            </File>
+            <File>
+              <FileName>color_component.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\color_picker\color_component.c</FilePath>
+            </File>
+            <File>
+              <FileName>color_picker.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\color_picker\color_picker.c</FilePath>
+            </File>
+            <File>
+              <FileName>rgb_and_hsv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\color_picker\rgb_and_hsv.c</FilePath>
             </File>
           </Files>
         </Group>

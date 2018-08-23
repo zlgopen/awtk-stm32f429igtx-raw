@@ -814,11 +814,6 @@
               <FilePath>..\awtk\src\base\rect.c</FilePath>
             </File>
             <File>
-              <FileName>resource_manager.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\resource_manager.c</FilePath>
-            </File>
-            <File>
               <FileName>slider.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\slider.c</FilePath>
@@ -1229,11 +1224,6 @@
               <FilePath>..\awtk\src\base\popup.c</FilePath>
             </File>
             <File>
-              <FileName>tklocale.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\tklocale.c</FilePath>
-            </File>
-            <File>
               <FileName>awtk.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\awtk.c</FilePath>
@@ -1247,6 +1237,16 @@
               <FileName>color_tile.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\color_tile.c</FilePath>
+            </File>
+            <File>
+              <FileName>assets_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\assets_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>locale_info.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\locale_info.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1429,14 +1429,14 @@
               <FilePath>..\awtk\demos\demo_main.c</FilePath>
             </File>
             <File>
-              <FileName>resource.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\demos\resource.c</FilePath>
-            </File>
-            <File>
               <FileName>demo_ui_app.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\demos\demo_ui_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>assets.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\demos\assets.c</FilePath>
             </File>
           </Files>
         </Group>

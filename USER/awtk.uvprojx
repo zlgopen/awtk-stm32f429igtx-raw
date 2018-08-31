@@ -1553,6 +1553,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\slide_view\slide_view.c</FilePath>
             </File>
+            <File>
+              <FileName>time_clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\time_clock\time_clock.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

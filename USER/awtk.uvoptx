@@ -950,7 +950,7 @@
 
   <Group>
     <GroupName>AWTK</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -3067,6 +3067,18 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\awtk\src\ext_widgets\slide_view\slide_view.c</PathWithFileName>
       <FilenameWithoutPath>slide_view.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>12</GroupNumber>
+      <FileNumber>225</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\ext_widgets\time_clock\time_clock.c</PathWithFileName>
+      <FilenameWithoutPath>time_clock.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

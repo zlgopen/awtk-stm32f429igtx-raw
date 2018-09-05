@@ -934,11 +934,6 @@
               <FilePath>..\awtk\src\lcd\lcd_mem_rgb565.c</FilePath>
             </File>
             <File>
-              <FileName>vgcanvas_picasso.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\src\vgcanvas\vgcanvas_picasso.cpp</FilePath>
-            </File>
-            <File>
               <FileName>ui_builder_default.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ui_loader\ui_builder_default.c</FilePath>
@@ -1233,6 +1228,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\row.c</FilePath>
             </File>
+            <File>
+              <FileName>vgcanvas_null.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\vgcanvas\vgcanvas_null.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1257,156 +1257,6 @@
               <FileName>fs_os.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\platforms\raw\fs_os.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>PICASSO</GroupName>
-          <Files>
-            <File>
-              <FileName>clipper.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\core\clipper.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>curve.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\core\curve.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>device.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\core\device.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>fixedopt.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\core\fixedopt.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>graphic_path.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\core\graphic_path.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_blur.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_blur.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_device.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_device.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_font_adapter_null.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_font_adapter_null.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_gradient_adapter.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_gradient_adapter.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_image_filters.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_image_filters.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_raster_adapter.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_raster_adapter.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_rendering_buffer.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_rendering_buffer.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>gfx_sqrt_tables.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\gfx\gfx_sqrt_tables.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_api.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_api.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_canvas.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_canvas.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_font.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_font.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_font_api.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_font_api.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_gradient.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_gradient.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_gradient_api.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_gradient_api.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_image.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_image.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_mask.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_mask.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_mask_api.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_mask_api.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_matrix.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_matrix.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_matrix_api.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_matrix_api.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_painter.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_painter.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_path.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_path.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_pattern.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_pattern.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_raster_adapter.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_raster_adapter.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>picasso_rendering_buffer.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\awtk\3rd\picasso\src\picasso_rendering_buffer.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -1557,6 +1407,11 @@
               <FileName>time_clock.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\time_clock\time_clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>guage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\guage\guage.c</FilePath>
             </File>
           </Files>
         </Group>

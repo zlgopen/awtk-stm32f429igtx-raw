@@ -65,4 +65,10 @@
  */
 #define WITH_MINI_FONT 1
 
+/**
+ * 如果启用STM32 G2D硬件加速，请定义本宏
+ *
+ */
+#define WITH_STM32_G2D 1
+
 #endif/*AWTK_CONFIG_H*/

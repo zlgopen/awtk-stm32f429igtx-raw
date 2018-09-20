@@ -333,10 +333,10 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls></MiscControls>
+              <MiscControls>--gnu</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F429xx,HAS_AWTK_CONFIG</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\libunibreak\src;..\awtk\src\ext_widgets;..\awtk-port</IncludePath>
+              <IncludePath>..\CORE;..\OBJ;..\USER;..\HALLIB\STM32F4xx_HAL_Driver\Inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\SDRAM;..\HARDWARE\KEY;..\HARDWARE\SDIO;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\MALLOC;..\USMART;..\FATFS\exfuns;..\FATFS\src;..\TEXT;..\HARDWARE\NAND;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\IIC;..\awtk;..\awtk\src;..\awtk\3rd;..\awtk\3rd\libunibreak\src;..\awtk\src\ext_widgets;..\awtk-port;..\awtk\3rd\nanovg\src;..\awtk\3rd\agge\src;..\awtk\3rd\agge\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1229,9 +1229,9 @@
               <FilePath>..\awtk\src\base\row.c</FilePath>
             </File>
             <File>
-              <FileName>vgcanvas_null.c</FileName>
+              <FileName>vgcanvas_nanovg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\vgcanvas\vgcanvas_null.c</FilePath>
+              <FilePath>..\awtk\src\vgcanvas\vgcanvas_nanovg.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1412,6 +1412,51 @@
               <FileName>guage.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\guage\guage.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>NANOVG</GroupName>
+          <Files>
+            <File>
+              <FileName>nanovg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\3rd\nanovg\src\nanovg.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>AGGE</GroupName>
+          <Files>
+            <File>
+              <FileName>math.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\awtk\3rd\agge\src\agge\math.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>nanovg_agge.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\awtk\3rd\agge\src\agge\nanovg_agge.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>nanovg_vertex.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\awtk\3rd\agge\src\agge\nanovg_vertex.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>stroke.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\awtk\3rd\agge\src\agge\stroke.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>stroke_features.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\awtk\3rd\agge\src\agge\stroke_features.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>vector_rasterizer.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\awtk\3rd\agge\src\agge\vector_rasterizer.cpp</FilePath>
             </File>
           </Files>
         </Group>

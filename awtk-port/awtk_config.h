@@ -71,4 +71,16 @@
  */
 #define WITH_STM32_G2D 1
 
+/**
+ * 如果启用VGCANVAS，而且没有OpenGL硬件加速，请定义本宏
+ *
+ */
+#define WITH_NANOVG_AGGE 1
+
+/**
+ * 如果启用VGCANVAS，请定义本宏
+ *
+ */
+#define WITH_VGCANVAS 1
+
 #endif/*AWTK_CONFIG_H*/

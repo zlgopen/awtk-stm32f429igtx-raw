@@ -150,66 +150,34 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>359</LineNumber>
+          <LineNumber>379</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134474490</Address>
+          <Address>134450750</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>\\vmware-host\Shared Folders\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\base\window_manager.c</Filename>
+          <Filename>\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\vgcanvas\vgcanvas_nanovg.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\awtk\../awtk/src/base/window_manager.c\359</Expression>
+          <Expression>\\awtk\../awtk/src/vgcanvas/vgcanvas_nanovg.c\379</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>368</LineNumber>
+          <LineNumber>272</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134475704</Address>
+          <Address>134441304</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>\\vmware-host\Shared Folders\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\base\window_manager.c</Filename>
+          <Filename>\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\ext_widgets\time_clock\time_clock.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\awtk\../awtk/src/base/window_manager.c\368</Expression>
-        </Bp>
-        <Bp>
-          <Number>2</Number>
-          <Type>0</Type>
-          <LineNumber>202</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134474242</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>\\vmware-host\Shared Folders\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\base\window_manager.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\awtk\../awtk/src/base/window_manager.c\202</Expression>
-        </Bp>
-        <Bp>
-          <Number>3</Number>
-          <Type>0</Type>
-          <LineNumber>912</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134464492</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>\\vmware-host\Shared Folders\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\base\widget.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\awtk\../awtk/src/base/widget.c\912</Expression>
+          <Expression>\\awtk\../awtk/src/ext_widgets/time_clock/time_clock.c\272</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -2317,8 +2285,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\src\vgcanvas\vgcanvas_null.c</PathWithFileName>
-      <FilenameWithoutPath>vgcanvas_null.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\src\vgcanvas\vgcanvas_nanovg.c</PathWithFileName>
+      <FilenameWithoutPath>vgcanvas_nanovg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2518,7 +2486,7 @@
 
   <Group>
     <GroupName>EXT_WIDGETS</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -2735,6 +2703,106 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\awtk\src\ext_widgets\guage\guage.c</PathWithFileName>
       <FilenameWithoutPath>guage.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>NANOVG</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>12</GroupNumber>
+      <FileNumber>198</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\nanovg\src\nanovg.c</PathWithFileName>
+      <FilenameWithoutPath>nanovg.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>AGGE</GroupName>
+    <tvExp>0</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>13</GroupNumber>
+      <FileNumber>199</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\agge\src\agge\math.cpp</PathWithFileName>
+      <FilenameWithoutPath>math.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>13</GroupNumber>
+      <FileNumber>200</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\agge\src\agge\nanovg_agge.cpp</PathWithFileName>
+      <FilenameWithoutPath>nanovg_agge.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>13</GroupNumber>
+      <FileNumber>201</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\agge\src\agge\nanovg_vertex.cpp</PathWithFileName>
+      <FilenameWithoutPath>nanovg_vertex.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>13</GroupNumber>
+      <FileNumber>202</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\agge\src\agge\stroke.cpp</PathWithFileName>
+      <FilenameWithoutPath>stroke.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>13</GroupNumber>
+      <FileNumber>203</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\agge\src\agge\stroke_features.cpp</PathWithFileName>
+      <FilenameWithoutPath>stroke_features.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>13</GroupNumber>
+      <FileNumber>204</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\agge\src\agge\vector_rasterizer.cpp</PathWithFileName>
+      <FilenameWithoutPath>vector_rasterizer.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

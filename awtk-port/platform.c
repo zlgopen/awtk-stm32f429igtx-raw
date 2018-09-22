@@ -36,8 +36,7 @@ void sleep_ms(uint32_t ms) {
 #define MEM2_ADDR (uint8_t*)0XC0000000 + 5 * 1024 * 1024
 
 ret_t platform_prepare(void) {
-  timer_init(get_time_ms);
   tk_mem_init(MEM2_ADDR, MEM2_MAX_SIZE);
-
+	
   return RET_OK;
 }

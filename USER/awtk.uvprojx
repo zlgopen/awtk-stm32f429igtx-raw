@@ -1269,14 +1269,14 @@
               <FilePath>..\awtk\demos\demo_main.c</FilePath>
             </File>
             <File>
-              <FileName>demo_ui_app.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\demos\demo_ui_app.c</FilePath>
-            </File>
-            <File>
               <FileName>assets.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\demos\assets.c</FilePath>
+            </File>
+            <File>
+              <FileName>demo_ui_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\demos\demo_ui_app.c</FilePath>
             </File>
           </Files>
         </Group>

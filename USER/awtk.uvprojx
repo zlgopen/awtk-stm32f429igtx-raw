@@ -1423,6 +1423,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\switch\switch.c</FilePath>
             </File>
+            <File>
+              <FileName>image_animation.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\image_animation\image_animation.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

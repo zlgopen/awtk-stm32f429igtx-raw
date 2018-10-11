@@ -30,7 +30,7 @@
 
 #include "base/lcd.h"
 #include "base/mem.h"
-#include "lcd/lcd_mem_rgb565.h"
+#include "lcd/lcd_mem_bgr565.h"
 #include "lcd/lcd_mem_bgra8888.h"
 
 extern int gui_app_start(int lcd_w, int lcd_h);
@@ -95,7 +95,7 @@ lcd_t* stm32f429_create_lcd(wh_t w, wh_t h) {
   lcd = lcd_mem_bgra8888_create_three_fb(w, h, s_framebuffers[0], s_framebuffers[1],
                                          s_framebuffers[2]);
 #else
-  lcd = lcd_mem_rgb565_create_three_fb(w, h, s_framebuffers[0], s_framebuffers[1], s_framebuffers[2]);
+  lcd = lcd_mem_bgr565_create_three_fb(w, h, s_framebuffers[0], s_framebuffers[1], s_framebuffers[2]);
 #endif /*LCD_PIXFORMAT*/
 	
   lcd->swap = lcd_stmf429_swap;

@@ -54,10 +54,10 @@
 #define WITH_BITMAP_BGRA 1
 
 /**
- * 如果定义本宏，将不透明的PNG图片解码成RGB565格式，建议定义。
+ * 如果定义本宏，将不透明的PNG图片解码成BGR565格式，建议定义。
  *
  */
-#define WITH_BITMAP_RGB565 1
+#define WITH_BITMAP_BGR565 1
 
 /**
  * 如果FLASH空间较小，不足以放大字体文件时，请定义本宏

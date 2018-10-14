@@ -159,7 +159,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\blend\soft_g2d.c</Filename>
+          <Filename>C:\vmware-host\Shared Folders\Share\lab\gui\awtk\awtk-stm32f429igtx-raw\awtk\src\blend\soft_g2d.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\awtk\../awtk/src/blend/soft_g2d.c\149</Expression>
         </Bp>
@@ -2566,7 +2566,7 @@
 
   <Group>
     <GroupName>AWTK-PORT</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -2622,7 +2622,7 @@
 
   <Group>
     <GroupName>AWTK-DEMO</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -2666,7 +2666,7 @@
 
   <Group>
     <GroupName>LIBUNIBREAK</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -2677,8 +2677,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\libunibreak\src\graphemebreak.c</PathWithFileName>
-      <FilenameWithoutPath>graphemebreak.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\libunibreak\emojidef.c</PathWithFileName>
+      <FilenameWithoutPath>emojidef.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2689,8 +2689,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\libunibreak\src\linebreak.c</PathWithFileName>
-      <FilenameWithoutPath>linebreak.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\libunibreak\graphemebreak.c</PathWithFileName>
+      <FilenameWithoutPath>graphemebreak.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2701,8 +2701,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\libunibreak\src\linebreakdef.c</PathWithFileName>
-      <FilenameWithoutPath>linebreakdef.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\libunibreak\linebreak.c</PathWithFileName>
+      <FilenameWithoutPath>linebreak.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2713,8 +2713,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\libunibreak\src\unibreakbase.c</PathWithFileName>
-      <FilenameWithoutPath>unibreakbase.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\libunibreak\linebreakdata.c</PathWithFileName>
+      <FilenameWithoutPath>linebreakdata.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2725,8 +2725,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\libunibreak\src\unibreakdef.c</PathWithFileName>
-      <FilenameWithoutPath>unibreakdef.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\libunibreak\linebreakdef.c</PathWithFileName>
+      <FilenameWithoutPath>linebreakdef.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2737,8 +2737,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\libunibreak\src\wordbreak.c</PathWithFileName>
-      <FilenameWithoutPath>wordbreak.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\libunibreak\unibreakbase.c</PathWithFileName>
+      <FilenameWithoutPath>unibreakbase.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2749,8 +2749,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\libunibreak\src\linebreakdata.c</PathWithFileName>
-      <FilenameWithoutPath>linebreakdata.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\libunibreak\unibreakdef.c</PathWithFileName>
+      <FilenameWithoutPath>unibreakdef.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>10</GroupNumber>
+      <FileNumber>204</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\libunibreak\wordbreak.c</PathWithFileName>
+      <FilenameWithoutPath>wordbreak.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2758,13 +2770,13 @@
 
   <Group>
     <GroupName>EXT_WIDGETS</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>204</FileNumber>
+      <FileNumber>205</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2776,7 +2788,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>205</FileNumber>
+      <FileNumber>206</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2788,7 +2800,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>206</FileNumber>
+      <FileNumber>207</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2800,7 +2812,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>207</FileNumber>
+      <FileNumber>208</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2812,7 +2824,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>208</FileNumber>
+      <FileNumber>209</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2824,7 +2836,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>209</FileNumber>
+      <FileNumber>210</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2836,7 +2848,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>210</FileNumber>
+      <FileNumber>211</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2848,7 +2860,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>211</FileNumber>
+      <FileNumber>212</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2860,7 +2872,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>212</FileNumber>
+      <FileNumber>213</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2872,7 +2884,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>213</FileNumber>
+      <FileNumber>214</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2884,7 +2896,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>214</FileNumber>
+      <FileNumber>215</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2896,7 +2908,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>215</FileNumber>
+      <FileNumber>216</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2908,7 +2920,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>216</FileNumber>
+      <FileNumber>217</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2920,7 +2932,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>217</FileNumber>
+      <FileNumber>218</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2932,7 +2944,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>218</FileNumber>
+      <FileNumber>219</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2944,7 +2956,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>219</FileNumber>
+      <FileNumber>220</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2956,7 +2968,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>220</FileNumber>
+      <FileNumber>221</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2968,7 +2980,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>221</FileNumber>
+      <FileNumber>222</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2980,7 +2992,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>222</FileNumber>
+      <FileNumber>223</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2992,7 +3004,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>223</FileNumber>
+      <FileNumber>224</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3004,7 +3016,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>224</FileNumber>
+      <FileNumber>225</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3024,12 +3036,12 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>12</GroupNumber>
-      <FileNumber>225</FileNumber>
+      <FileNumber>226</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\nanovg\src\nanovg.c</PathWithFileName>
+      <PathWithFileName>..\awtk\3rd\nanovg\base\nanovg.c</PathWithFileName>
       <FilenameWithoutPath>nanovg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -3044,25 +3056,13 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>226</FileNumber>
-      <FileType>8</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\agge\src\agge\math.cpp</PathWithFileName>
-      <FilenameWithoutPath>math.cpp</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>13</GroupNumber>
       <FileNumber>227</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\agge\src\agge\nanovg_agge.cpp</PathWithFileName>
-      <FilenameWithoutPath>nanovg_agge.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\agge\agge\math.cpp</PathWithFileName>
+      <FilenameWithoutPath>math.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3073,8 +3073,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\agge\src\agge\nanovg_vertex.cpp</PathWithFileName>
-      <FilenameWithoutPath>nanovg_vertex.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\agge\agge\stroke.cpp</PathWithFileName>
+      <FilenameWithoutPath>stroke.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3085,8 +3085,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\agge\src\agge\stroke.cpp</PathWithFileName>
-      <FilenameWithoutPath>stroke.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\agge\agge\stroke_features.cpp</PathWithFileName>
+      <FilenameWithoutPath>stroke_features.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3097,8 +3097,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\agge\src\agge\stroke_features.cpp</PathWithFileName>
-      <FilenameWithoutPath>stroke_features.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\agge\agge\vector_rasterizer.cpp</PathWithFileName>
+      <FilenameWithoutPath>vector_rasterizer.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -3109,8 +3109,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\3rd\agge\src\agge\vector_rasterizer.cpp</PathWithFileName>
-      <FilenameWithoutPath>vector_rasterizer.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\3rd\nanovg\agge\nanovg_agge.cpp</PathWithFileName>
+      <FilenameWithoutPath>nanovg_agge.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>13</GroupNumber>
+      <FileNumber>232</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\3rd\nanovg\agge\nanovg_vertex.cpp</PathWithFileName>
+      <FilenameWithoutPath>nanovg_vertex.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

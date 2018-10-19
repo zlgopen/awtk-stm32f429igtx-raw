@@ -899,11 +899,6 @@
               <FilePath>..\awtk\src\base\wstr.c</FilePath>
             </File>
             <File>
-              <FileName>font_bitmap.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\font\font_bitmap.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32_g2d.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\blend\stm32_g2d.c</FilePath>
@@ -997,11 +992,6 @@
               <FileName>image_loader_stb.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\image_loader\image_loader_stb.c</FilePath>
-            </File>
-            <File>
-              <FileName>font_stb.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\font\font_stb.c</FilePath>
             </File>
             <File>
               <FileName>glyph_cache.c</FileName>
@@ -1352,6 +1342,21 @@
               <FileName>rotate_image_rgba8888.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\blend\rotate_image_rgba8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>font_loader_bitmap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\font_loader\font_loader_bitmap.c</FilePath>
+            </File>
+            <File>
+              <FileName>font_loader_stb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\font_loader\font_loader_stb.c</FilePath>
+            </File>
+            <File>
+              <FileName>font_loader.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\font_loader.c</FilePath>
             </File>
           </Files>
         </Group>

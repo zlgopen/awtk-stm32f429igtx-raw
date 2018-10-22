@@ -1358,6 +1358,31 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\font_loader.c</FilePath>
             </File>
+            <File>
+              <FileName>widget_animator_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widget_animators\widget_animator_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_base.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\window_base.c</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator_rotation.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widget_animators\widget_animator_rotation.c</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator_scale.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widget_animators\widget_animator_scale.c</FilePath>
+            </File>
+            <File>
+              <FileName>func_call_parser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\func_call_parser.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

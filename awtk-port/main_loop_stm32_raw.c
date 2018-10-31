@@ -41,7 +41,6 @@
 #include "base/g2d.h"
 #include "base/idle.h"
 #include "base/timer.h"
-#include "lcd/lcd_mem_rgb565.h"
 #include "main_loop/main_loop_simple.h"
 
 extern u32* ltdc_framebuf[2];

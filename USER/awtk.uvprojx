@@ -1399,9 +1399,14 @@
               <FilePath>..\awtk\src\base\style_factory.c</FilePath>
             </File>
             <File>
-              <FileName>widget_animator_factory_null.c</FileName>
+              <FileName>widget_animator_manager.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\widget_animator_factory_null.c</FilePath>
+              <FilePath>..\awtk\src\base\widget_animator_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>date_time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\date_time.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1602,6 +1607,11 @@
               <FileName>image_animation.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\image_animation\image_animation.c</FilePath>
+            </File>
+            <File>
+              <FileName>digit_clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\time_clock\digit_clock.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -110,6 +110,23 @@ lcd_t* stm32f429_create_lcd(wh_t w, wh_t h) {
   return lcd;
 }
 
+/*
+lcd_t* stm32f429_create_lcd(wh_t w, wh_t h) {
+  lcd_t* lcd = NULL;
+  uint32_t size = w * h * lcdltdc.pixsize;
+  s_framebuffers[0] = FB_ADDR;
+  s_framebuffers[1] = FB_ADDR + size;
+
+#if LCD_PIXFORMAT == LCD_PIXFORMAT_ARGB8888 
+  lcd = lcd_mem_bgra8888_create_double_fb(w, h, s_framebuffers[0], s_framebuffers[1]);
+#else
+  lcd = lcd_mem_bgr565_create_double_fb(w, h, s_framebuffers[0], s_framebuffers[1]);
+#endif 
+	
+  return lcd;
+}
+*/
+
 int main(void) {
   HAL_Init();                       //初始化HAL库
   Stm32_Clock_Init(360, 25, 2, 8);  //设置时钟,180Mhz

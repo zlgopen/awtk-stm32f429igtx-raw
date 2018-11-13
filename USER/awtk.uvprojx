@@ -834,11 +834,6 @@
               <FilePath>..\awtk\src\base\theme.c</FilePath>
             </File>
             <File>
-              <FileName>time.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\time.c</FilePath>
-            </File>
-            <File>
               <FileName>timer.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\timer.c</FilePath>
@@ -1199,11 +1194,6 @@
               <FilePath>..\awtk\src\base\row.c</FilePath>
             </File>
             <File>
-              <FileName>vgcanvas_nanovg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\vgcanvas\vgcanvas_nanovg.c</FilePath>
-            </File>
-            <File>
               <FileName>calibration_win.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\calibration_win.c</FilePath>
@@ -1407,6 +1397,16 @@
               <FileName>date_time.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\date_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>time_now.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\time_now.c</FilePath>
+            </File>
+            <File>
+              <FileName>vgcanvas_nanovg_soft.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\vgcanvas\vgcanvas_nanovg_soft.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1612,6 +1612,11 @@
               <FileName>digit_clock.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\time_clock\digit_clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>progress_circle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\progress_circle\progress_circle.c</FilePath>
             </File>
           </Files>
         </Group>

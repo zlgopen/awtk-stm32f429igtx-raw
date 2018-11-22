@@ -1408,6 +1408,71 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\vgcanvas\vgcanvas_nanovg_soft.c</FilePath>
             </File>
+            <File>
+              <FileName>clip_board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\clip_board.c</FilePath>
+            </File>
+            <File>
+              <FileName>image_base.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\image_base.c</FilePath>
+            </File>
+            <File>
+              <FileName>widget_animator_factory_null.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\widget_animator_factory_null.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsvg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\bsvg.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsvg_builder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\bsvg_builder.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsvg_draw.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\bsvg_draw.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsvg_to_svg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\bsvg_to_svg.c</FilePath>
+            </File>
+            <File>
+              <FileName>svg_path.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\svg_path.c</FilePath>
+            </File>
+            <File>
+              <FileName>svg_path_parser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\svg_path_parser.c</FilePath>
+            </File>
+            <File>
+              <FileName>svg_shape.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\svg_shape.c</FilePath>
+            </File>
+            <File>
+              <FileName>svg_to_bsvg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\svg\svg_to_bsvg.c</FilePath>
+            </File>
+            <File>
+              <FileName>clip_board_default.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\clip_board\clip_board_default.c</FilePath>
+            </File>
+            <File>
+              <FileName>guage_pointer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\guage\guage_pointer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

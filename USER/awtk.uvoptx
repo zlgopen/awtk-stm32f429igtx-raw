@@ -258,7 +258,7 @@
 
   <Group>
     <GroupName>USER</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -2710,17 +2710,173 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>201</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\base\clip_board.c</PathWithFileName>
+      <FilenameWithoutPath>clip_board.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>202</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\base\image_base.c</PathWithFileName>
+      <FilenameWithoutPath>image_base.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>203</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\base\widget_animator_factory_null.c</PathWithFileName>
+      <FilenameWithoutPath>widget_animator_factory_null.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>204</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\bsvg.c</PathWithFileName>
+      <FilenameWithoutPath>bsvg.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>205</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\bsvg_builder.c</PathWithFileName>
+      <FilenameWithoutPath>bsvg_builder.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>206</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\bsvg_draw.c</PathWithFileName>
+      <FilenameWithoutPath>bsvg_draw.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>207</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\bsvg_to_svg.c</PathWithFileName>
+      <FilenameWithoutPath>bsvg_to_svg.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>208</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\svg_path.c</PathWithFileName>
+      <FilenameWithoutPath>svg_path.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>209</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\svg_path_parser.c</PathWithFileName>
+      <FilenameWithoutPath>svg_path_parser.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>210</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\svg_shape.c</PathWithFileName>
+      <FilenameWithoutPath>svg_shape.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>211</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\svg\svg_to_bsvg.c</PathWithFileName>
+      <FilenameWithoutPath>svg_to_bsvg.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>212</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\clip_board\clip_board_default.c</PathWithFileName>
+      <FilenameWithoutPath>clip_board_default.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>213</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\ext_widgets\guage\guage_pointer.c</PathWithFileName>
+      <FilenameWithoutPath>guage_pointer.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
   <Group>
     <GroupName>AWTK-PORT</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>201</FileNumber>
+      <FileNumber>214</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2732,7 +2888,7 @@
     </File>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>202</FileNumber>
+      <FileNumber>215</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2744,7 +2900,7 @@
     </File>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>203</FileNumber>
+      <FileNumber>216</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2756,7 +2912,7 @@
     </File>
     <File>
       <GroupNumber>8</GroupNumber>
-      <FileNumber>204</FileNumber>
+      <FileNumber>217</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2776,7 +2932,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>9</GroupNumber>
-      <FileNumber>205</FileNumber>
+      <FileNumber>218</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2788,7 +2944,7 @@
     </File>
     <File>
       <GroupNumber>9</GroupNumber>
-      <FileNumber>206</FileNumber>
+      <FileNumber>219</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2800,7 +2956,7 @@
     </File>
     <File>
       <GroupNumber>9</GroupNumber>
-      <FileNumber>207</FileNumber>
+      <FileNumber>220</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2820,7 +2976,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>208</FileNumber>
+      <FileNumber>221</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2832,7 +2988,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>209</FileNumber>
+      <FileNumber>222</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2844,7 +3000,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>210</FileNumber>
+      <FileNumber>223</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2856,7 +3012,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>211</FileNumber>
+      <FileNumber>224</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2868,7 +3024,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>212</FileNumber>
+      <FileNumber>225</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2880,7 +3036,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>213</FileNumber>
+      <FileNumber>226</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2892,7 +3048,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>214</FileNumber>
+      <FileNumber>227</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2904,7 +3060,7 @@
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>215</FileNumber>
+      <FileNumber>228</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2918,13 +3074,13 @@
 
   <Group>
     <GroupName>EXT_WIDGETS</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>216</FileNumber>
+      <FileNumber>229</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2936,7 +3092,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>217</FileNumber>
+      <FileNumber>230</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2948,7 +3104,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>218</FileNumber>
+      <FileNumber>231</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2960,7 +3116,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>219</FileNumber>
+      <FileNumber>232</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2972,7 +3128,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>220</FileNumber>
+      <FileNumber>233</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2984,7 +3140,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>221</FileNumber>
+      <FileNumber>234</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2996,7 +3152,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>222</FileNumber>
+      <FileNumber>235</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3008,7 +3164,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>223</FileNumber>
+      <FileNumber>236</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3020,7 +3176,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>224</FileNumber>
+      <FileNumber>237</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3032,7 +3188,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>225</FileNumber>
+      <FileNumber>238</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3044,7 +3200,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>226</FileNumber>
+      <FileNumber>239</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3056,7 +3212,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>227</FileNumber>
+      <FileNumber>240</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3068,7 +3224,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>228</FileNumber>
+      <FileNumber>241</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3080,7 +3236,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>229</FileNumber>
+      <FileNumber>242</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3092,7 +3248,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>230</FileNumber>
+      <FileNumber>243</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3104,7 +3260,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>231</FileNumber>
+      <FileNumber>244</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3116,7 +3272,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>232</FileNumber>
+      <FileNumber>245</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3128,7 +3284,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>233</FileNumber>
+      <FileNumber>246</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3140,7 +3296,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>234</FileNumber>
+      <FileNumber>247</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3152,7 +3308,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>235</FileNumber>
+      <FileNumber>248</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3164,7 +3320,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>236</FileNumber>
+      <FileNumber>249</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3176,7 +3332,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>237</FileNumber>
+      <FileNumber>250</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3188,7 +3344,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>238</FileNumber>
+      <FileNumber>251</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3208,7 +3364,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>12</GroupNumber>
-      <FileNumber>239</FileNumber>
+      <FileNumber>252</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3222,13 +3378,13 @@
 
   <Group>
     <GroupName>AGGE</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>240</FileNumber>
+      <FileNumber>253</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3240,7 +3396,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>241</FileNumber>
+      <FileNumber>254</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3252,7 +3408,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>242</FileNumber>
+      <FileNumber>255</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3264,7 +3420,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>243</FileNumber>
+      <FileNumber>256</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3276,7 +3432,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>244</FileNumber>
+      <FileNumber>257</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -3288,7 +3444,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>245</FileNumber>
+      <FileNumber>258</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>

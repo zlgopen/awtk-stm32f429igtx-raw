@@ -1483,6 +1483,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\input_device_status.c</FilePath>
             </File>
+            <File>
+              <FileName>system_bar.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\system_bar.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1702,6 +1707,16 @@
               <FileName>svg_image.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\svg_image\svg_image.c</FilePath>
+            </File>
+            <File>
+              <FileName>canvas_widget.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\canvas_widget\canvas_widget.c</FilePath>
+            </File>
+            <File>
+              <FileName>image_value.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\image_value\image_value.c</FilePath>
             </File>
           </Files>
         </Group>

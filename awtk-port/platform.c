@@ -20,9 +20,9 @@
  */
 
 #include "delay.h"
-#include "base/mem.h"
+#include "tkc/mem.h"
 #include "base/timer.h"
-#include "base/platform.h"
+#include "tkc/platform.h"
 
 uint32_t get_time_ms() {
   return HAL_GetTick();

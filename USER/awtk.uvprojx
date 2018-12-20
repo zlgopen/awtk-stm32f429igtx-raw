@@ -1473,6 +1473,36 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\widget_animators\widget_animator_prop2.c</FilePath>
             </File>
+            <File>
+              <FileName>children_layouter.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\children_layouter.c</FilePath>
+            </File>
+            <File>
+              <FileName>self_layouter.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\self_layouter.c</FilePath>
+            </File>
+            <File>
+              <FileName>children_layouter_default.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\children_layouter_default.c</FilePath>
+            </File>
+            <File>
+              <FileName>children_layouter_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\children_layouter_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>self_layouter_default.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\self_layouter_default.c</FilePath>
+            </File>
+            <File>
+              <FileName>self_layouter_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\self_layouter_factory.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

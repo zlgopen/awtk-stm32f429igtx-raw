@@ -664,11 +664,6 @@
           <GroupName>AWTK</GroupName>
           <Files>
             <File>
-              <FileName>array.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\tkc\array.c</FilePath>
-            </File>
-            <File>
               <FileName>bitmap.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\bitmap.c</FilePath>

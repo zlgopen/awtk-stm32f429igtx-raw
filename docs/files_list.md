@@ -113,6 +113,7 @@
       awtk/src/ext_widgets/image_value/image_value.c
       awtk/src/ext_widgets/keyboard/candidates.c
       awtk/src/ext_widgets/keyboard/keyboard.c
+      awtk/src/ext_widgets/mutable_image/mutable_image.c
       awtk/src/ext_widgets/progress_circle/progress_circle.c
       awtk/src/ext_widgets/rich_text/rich_text.c
       awtk/src/ext_widgets/rich_text/rich_text_node.c

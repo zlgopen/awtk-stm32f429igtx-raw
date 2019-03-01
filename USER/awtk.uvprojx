@@ -1553,6 +1553,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\tkc\expr_eval.c</FilePath>
             </File>
+            <File>
+              <FileName>mutable_image.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\mutable_image\mutable_image.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

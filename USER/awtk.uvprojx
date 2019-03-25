@@ -1558,6 +1558,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\mutable_image\mutable_image.c</FilePath>
             </File>
+            <File>
+              <FileName>lcd_profile.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\lcd_profile.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

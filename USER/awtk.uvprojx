@@ -929,11 +929,6 @@
               <FilePath>..\awtk\src\xml\xml_parser.c</FilePath>
             </File>
             <File>
-              <FileName>window_animator_fb.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\window_animators\window_animator_fb.c</FilePath>
-            </File>
-            <File>
               <FileName>main_loop_simple.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\main_loop\main_loop_simple.c</FilePath>
@@ -1562,6 +1557,96 @@
               <FileName>lcd_profile.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\lcd_profile.c</FilePath>
+            </File>
+            <File>
+              <FileName>dialog_highlighter.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\dialog_highlighter.c</FilePath>
+            </File>
+            <File>
+              <FileName>dialog_highlighter_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\dialog_highlighter_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\window_animator_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>dialog_highlighter_builtins.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\dialog_highlighters\dialog_highlighter_builtins.c</FilePath>
+            </File>
+            <File>
+              <FileName>dialog_highlighter_default.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\dialog_highlighters\dialog_highlighter_default.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_builtins.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_builtins.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_center_scale.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_center_scale.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_common.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_fade.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_fade.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_htranslate.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_htranslate.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_popdown.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_popdown.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_popup.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_popup.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_slide.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_slide.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_slide_down.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_slide_down.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_slide_left.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_slide_left.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_slide_right.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_slide_right.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_slide_up.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_slide_up.c</FilePath>
+            </File>
+            <File>
+              <FileName>window_animator_vtranslate.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\window_animators\window_animator_vtranslate.c</FilePath>
             </File>
           </Files>
         </Group>

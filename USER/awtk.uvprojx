@@ -1668,6 +1668,16 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\layouters\self_layouter_parser.c</FilePath>
             </File>
+            <File>
+              <FileName>children_layouter_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\children_layouter_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>self_layouter_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\self_layouter_factory.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

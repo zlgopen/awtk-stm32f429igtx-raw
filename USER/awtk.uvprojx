@@ -1474,19 +1474,9 @@
               <FilePath>..\awtk\src\layouters\children_layouter_default.c</FilePath>
             </File>
             <File>
-              <FileName>children_layouter_factory.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\layouters\children_layouter_factory.c</FilePath>
-            </File>
-            <File>
               <FileName>self_layouter_default.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\layouters\self_layouter_default.c</FilePath>
-            </File>
-            <File>
-              <FileName>self_layouter_factory.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\layouters\self_layouter_factory.c</FilePath>
             </File>
             <File>
               <FileName>event.c</FileName>
@@ -1657,6 +1647,31 @@
               <FileName>fill_image_argb8888.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\blend\fill_image_argb8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>hscrollable.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\hscrollable.c</FilePath>
+            </File>
+            <File>
+              <FileName>shortcut.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\shortcut.c</FilePath>
+            </File>
+            <File>
+              <FileName>style_mutable.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\style_mutable.c</FilePath>
+            </File>
+            <File>
+              <FileName>int_str.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\tkc\int_str.c</FilePath>
+            </File>
+            <File>
+              <FileName>str_str.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\tkc\str_str.c</FilePath>
             </File>
           </Files>
         </Group>

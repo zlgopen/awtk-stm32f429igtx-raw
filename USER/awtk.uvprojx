@@ -194,7 +194,7 @@
             <RoSelD>3</RoSelD>
             <RwSelD>3</RwSelD>
             <CodeSel>0</CodeSel>
-            <OptFeed>1</OptFeed>
+            <OptFeed>0</OptFeed>
             <NoZi1>0</NoZi1>
             <NoZi2>0</NoZi2>
             <NoZi3>0</NoZi3>
@@ -343,7 +343,7 @@
             <interw>1</interw>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <thumb>1</thumb>
+            <thumb>0</thumb>
             <SplitLS>0</SplitLS>
             <SwStkChk>0</SwStkChk>
             <NoWarn>0</NoWarn>
@@ -1539,14 +1539,9 @@
               <FilePath>..\awtk\src\tkc\expr_eval.c</FilePath>
             </File>
             <File>
-              <FileName>mutable_image.c</FileName>
+              <FileName>children_layouter_factory.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\ext_widgets\mutable_image\mutable_image.c</FilePath>
-            </File>
-            <File>
-              <FileName>lcd_profile.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\lcd_profile.c</FilePath>
+              <FilePath>..\awtk\src\base\children_layouter_factory.c</FilePath>
             </File>
             <File>
               <FileName>dialog_highlighter.c</FileName>
@@ -1559,9 +1554,79 @@
               <FilePath>..\awtk\src\base\dialog_highlighter_factory.c</FilePath>
             </File>
             <File>
+              <FileName>hscrollable.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\hscrollable.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd_profile.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\lcd_profile.c</FilePath>
+            </File>
+            <File>
+              <FileName>self_layouter_factory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\self_layouter_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>shortcut.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\shortcut.c</FilePath>
+            </File>
+            <File>
+              <FileName>style_mutable.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\style_mutable.c</FilePath>
+            </File>
+            <File>
               <FileName>window_animator_factory.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\window_animator_factory.c</FilePath>
+            </File>
+            <File>
+              <FileName>int_str.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\tkc\int_str.c</FilePath>
+            </File>
+            <File>
+              <FileName>str_str.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\tkc\str_str.c</FilePath>
+            </File>
+            <File>
+              <FileName>children_layouter_builtins.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\children_layouter_builtins.c</FilePath>
+            </File>
+            <File>
+              <FileName>children_layouter_parser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\children_layouter_parser.c</FilePath>
+            </File>
+            <File>
+              <FileName>self_layouter_builtins.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\self_layouter_builtins.c</FilePath>
+            </File>
+            <File>
+              <FileName>self_layouter_parser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\layouters\self_layouter_parser.c</FilePath>
+            </File>
+            <File>
+              <FileName>fill_image_abgr8888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\fill_image_abgr8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>fill_image_argb8888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\fill_image_argb8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>overlay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widgets\overlay.c</FilePath>
             </File>
             <File>
               <FileName>dialog_highlighter_builtins.c</FileName>
@@ -1637,41 +1702,6 @@
               <FileName>window_animator_vtranslate.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\window_animators\window_animator_vtranslate.c</FilePath>
-            </File>
-            <File>
-              <FileName>fill_image_abgr8888.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\blend\fill_image_abgr8888.c</FilePath>
-            </File>
-            <File>
-              <FileName>fill_image_argb8888.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\blend\fill_image_argb8888.c</FilePath>
-            </File>
-            <File>
-              <FileName>hscrollable.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\hscrollable.c</FilePath>
-            </File>
-            <File>
-              <FileName>shortcut.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\shortcut.c</FilePath>
-            </File>
-            <File>
-              <FileName>style_mutable.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\style_mutable.c</FilePath>
-            </File>
-            <File>
-              <FileName>int_str.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\tkc\int_str.c</FilePath>
-            </File>
-            <File>
-              <FileName>str_str.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\tkc\str_str.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1907,6 +1937,16 @@
               <FileName>slide_menu.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\slide_menu\slide_menu.c</FilePath>
+            </File>
+            <File>
+              <FileName>mutable_image.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\mutable_image\mutable_image.c</FilePath>
+            </File>
+            <File>
+              <FileName>children_layouter_list_view.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\scroll_view\children_layouter_list_view.c</FilePath>
             </File>
           </Files>
         </Group>

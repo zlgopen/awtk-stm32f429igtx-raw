@@ -1948,6 +1948,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\scroll_view\children_layouter_list_view.c</FilePath>
             </File>
+            <File>
+              <FileName>slide_indicator.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\slide_view\slide_indicator.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

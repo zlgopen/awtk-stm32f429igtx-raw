@@ -1703,6 +1703,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\window_animators\window_animator_vtranslate.c</FilePath>
             </File>
+            <File>
+              <FileName>text_edit.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\text_edit.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1952,6 +1957,11 @@
               <FileName>slide_indicator.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\slide_view\slide_indicator.c</FilePath>
+            </File>
+            <File>
+              <FileName>mledit.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\mledit\mledit.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -923,7 +923,7 @@
 
   <Group>
     <GroupName>AWTK</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -4043,6 +4043,18 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+    <File>
+      <GroupNumber>11</GroupNumber>
+      <FileNumber>309</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\ext_widgets\mledit\line_number.c</PathWithFileName>
+      <FilenameWithoutPath>line_number.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
   <Group>
@@ -4053,7 +4065,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>12</GroupNumber>
-      <FileNumber>309</FileNumber>
+      <FileNumber>310</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4073,7 +4085,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>310</FileNumber>
+      <FileNumber>311</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4085,7 +4097,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>311</FileNumber>
+      <FileNumber>312</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4097,7 +4109,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>312</FileNumber>
+      <FileNumber>313</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4109,7 +4121,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>313</FileNumber>
+      <FileNumber>314</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4121,7 +4133,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>314</FileNumber>
+      <FileNumber>315</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4133,7 +4145,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>315</FileNumber>
+      <FileNumber>316</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>

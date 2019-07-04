@@ -1968,6 +1968,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\mledit\mledit.c</FilePath>
             </File>
+            <File>
+              <FileName>line_number.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\mledit\line_number.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

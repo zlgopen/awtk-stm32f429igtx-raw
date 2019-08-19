@@ -16,8 +16,8 @@
         <TargetCommonOption>
           <Device>STM32F429IGTx</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F4xx_DFP.2.14.0</PackID>
-          <PackURL>http://www.keil.com/pack/</PackURL>
+          <PackID>Keil.STM32F4xx_DFP.2.13.0</PackID>
+          <PackURL>http://www.keil.com/pack</PackURL>
           <Cpu>IROM(0x08000000,0x100000) IRAM(0x20000000,0x30000) IRAM2(0x10000000,0x10000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
@@ -696,7 +696,7 @@
             <File>
               <FileName>dialog.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\widgets\dialog.c</FilePath>
+              <FilePath>..\awtk\src\base\dialog.c</FilePath>
             </File>
             <File>
               <FileName>easing.c</FileName>
@@ -871,7 +871,7 @@
             <File>
               <FileName>window.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\widgets\window.c</FilePath>
+              <FilePath>..\awtk\src\base\window.c</FilePath>
             </File>
             <File>
               <FileName>window_animator.c</FileName>
@@ -1071,7 +1071,7 @@
             <File>
               <FileName>rom_fs.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\rom_fs.c</FilePath>
+              <FilePath>..\awtk\src\tkc\rom_fs.c</FilePath>
             </File>
             <File>
               <FileName>tab_button.c</FileName>
@@ -1522,11 +1522,6 @@
               <FileName>named_value.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\tkc\named_value.c</FilePath>
-            </File>
-            <File>
-              <FileName>widget_pool.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\base\widget_pool.c</FilePath>
             </File>
             <File>
               <FileName>darray.c</FileName>

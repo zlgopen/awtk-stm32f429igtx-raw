@@ -923,7 +923,7 @@
 
   <Group>
     <GroupName>AWTK</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -3703,7 +3703,7 @@
 
   <Group>
     <GroupName>EXT_WIDGETS</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -4115,6 +4115,18 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+    <File>
+      <GroupNumber>11</GroupNumber>
+      <FileNumber>315</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\awtk\src\ext_widgets\combo_box_ex\combo_box_ex.c</PathWithFileName>
+      <FilenameWithoutPath>combo_box_ex.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
   <Group>
@@ -4125,7 +4137,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>12</GroupNumber>
-      <FileNumber>315</FileNumber>
+      <FileNumber>316</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4145,7 +4157,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>316</FileNumber>
+      <FileNumber>317</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4157,7 +4169,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>317</FileNumber>
+      <FileNumber>318</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4169,7 +4181,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>318</FileNumber>
+      <FileNumber>319</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4181,7 +4193,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>319</FileNumber>
+      <FileNumber>320</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4193,7 +4205,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>320</FileNumber>
+      <FileNumber>321</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -4205,7 +4217,7 @@
     </File>
     <File>
       <GroupNumber>13</GroupNumber>
-      <FileNumber>321</FileNumber>
+      <FileNumber>322</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>

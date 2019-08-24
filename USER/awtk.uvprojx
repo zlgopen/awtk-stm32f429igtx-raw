@@ -1998,6 +1998,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\scroll_label\hscroll_label.c</FilePath>
             </File>
+            <File>
+              <FileName>combo_box_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\combo_box_ex\combo_box_ex.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

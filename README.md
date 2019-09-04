@@ -18,4 +18,5 @@ git clone https://github.com/zlgopen/awtk.git
 
 2. 用keil打开user/awtk.uvproj
 
+> 本项目采用的3framebuffer，如果希望使用2framebuffer请参考767的移植。
 

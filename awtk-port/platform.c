@@ -24,7 +24,7 @@
 #include "base/timer.h"
 #include "tkc/platform.h"
 
-uint64_t get_time_ms() {
+uint64_t get_time_ms64() {
   return HAL_GetTick();
 }
 

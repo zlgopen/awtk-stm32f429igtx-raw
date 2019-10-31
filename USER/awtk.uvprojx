@@ -1738,6 +1738,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\base\ui_feedback.c</FilePath>
             </File>
+            <File>
+              <FileName>graphic_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\base\graphic_buffer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2007,6 +2012,11 @@
               <FileName>combo_box_ex.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\combo_box_ex\combo_box_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>draggable.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\ext_widgets\features\draggable.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -43,6 +43,8 @@ static uint8_t* s_next_fb = NULL;
 static uint8_t* s_online_fb = NULL;
 static uint8_t* s_framebuffers[3];
 
+static lcd_begin_frame_t org_begin_frame;
+
 ret_t lcd_stmf429_begin_frame(lcd_t* lcd, rect_t* dirty_rect) {
   if (lcd_is_swappable(lcd)) {
     uint32_t i = 0;
@@ -58,6 +60,8 @@ ret_t lcd_stmf429_begin_frame(lcd_t* lcd, rect_t* dirty_rect) {
         break;
       }
     }
+		
+		org_begin_frame(lcd, dirty_rect);
   }
 
   return RET_OK;
@@ -98,6 +102,7 @@ lcd_t* stm32f429_create_lcd(wh_t w, wh_t h) {
   lcd = lcd_mem_bgr565_create_three_fb(w, h, s_framebuffers[0], s_framebuffers[1], s_framebuffers[2]);
 #endif /*LCD_PIXFORMAT*/
 	
+	org_begin_frame = lcd->begin_frame;
   lcd->swap = lcd_stmf429_swap;
   lcd->begin_frame = lcd_stmf429_begin_frame;
 

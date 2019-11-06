@@ -150,50 +150,18 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>6510</LineNumber>
+          <LineNumber>70</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134453402</Address>
+          <Address>134376794</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\awtk\3rd\stb/stb_image.h</Filename>
+          <Filename>..\awtk\src\lcd/lcd_mem.inc</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\awtk\../awtk/3rd/stb/stb_image.h\6510</Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
-          <LineNumber>86</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134355494</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\awtk\src\base\graphic_buffer.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\awtk\../awtk/src/base/graphic_buffer.c\86</Expression>
-        </Bp>
-        <Bp>
-          <Number>2</Number>
-          <Type>0</Type>
-          <LineNumber>60</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134355650</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\awtk\src\base\graphic_buffer.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\awtk\../awtk/src/base/graphic_buffer.c\60</Expression>
+          <Expression>\\awtk\../awtk/src/lcd/lcd_mem.inc\70</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -939,7 +907,7 @@
 
   <Group>
     <GroupName>AWTK</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

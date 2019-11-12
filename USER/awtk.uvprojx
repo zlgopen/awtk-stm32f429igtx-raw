@@ -1748,6 +1748,11 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\graphic_buffer\graphic_buffer_default.c</FilePath>
             </File>
+            <File>
+              <FileName>digit_clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\widgets\digit_clock.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1947,11 +1952,6 @@
               <FileName>image_animation.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\image_animation\image_animation.c</FilePath>
-            </File>
-            <File>
-              <FileName>digit_clock.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\ext_widgets\time_clock\digit_clock.c</FilePath>
             </File>
             <File>
               <FileName>progress_circle.c</FileName>

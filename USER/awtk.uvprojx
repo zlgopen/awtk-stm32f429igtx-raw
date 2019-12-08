@@ -343,7 +343,7 @@
             <interw>1</interw>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <thumb>0</thumb>
+            <thumb>1</thumb>
             <SplitLS>0</SplitLS>
             <SwStkChk>0</SwStkChk>
             <NoWarn>0</NoWarn>
@@ -1757,6 +1757,31 @@
               <FileName>log.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\awtk\src\tkc\log.c</FilePath>
+            </File>
+            <File>
+              <FileName>blend_image_rgb888_bgr565.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\blend_image_rgb888_bgr565.c</FilePath>
+            </File>
+            <File>
+              <FileName>blend_image_rgb888_bgra8888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\blend_image_rgb888_bgra8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>blend_image_rgb888_rgba8888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\blend_image_rgb888_rgba8888.c</FilePath>
+            </File>
+            <File>
+              <FileName>fill_image_rgb888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\fill_image_rgb888.c</FilePath>
+            </File>
+            <File>
+              <FileName>rotate_image_rgb888.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\blend\rotate_image_rgb888.c</FilePath>
             </File>
           </Files>
         </Group>

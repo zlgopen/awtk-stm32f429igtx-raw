@@ -83,4 +83,12 @@
  */
 #define WITH_VGCANVAS 1
 
+/**
+ * 启用输入法，但不想启用联想功能，请定义本宏。
+ *
+ */
+#define WITHOUT_SUGGEST_WORDS 1
+
+#define WITH_IME_NULL 1
+
 #endif/*AWTK_CONFIG_H*/

@@ -10,7 +10,7 @@
       <TargetName>awtk</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
+      <pCCUsed>5060528::V5.06 update 5 (build 528)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -1928,6 +1928,26 @@
               <FileType>1</FileType>
               <FilePath>..\awtk\src\ext_widgets\rich_text\rich_text_view.c</FilePath>
             </File>
+            <File>
+              <FileName>cond_var_null.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\platforms\raw\cond_var_null.c</FilePath>
+            </File>
+            <File>
+              <FileName>fs_os.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\platforms\raw\fs_os.c</FilePath>
+            </File>
+            <File>
+              <FileName>mutex_null.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\platforms\raw\mutex_null.c</FilePath>
+            </File>
+            <File>
+              <FileName>semaphore_null.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\awtk\src\platforms\raw\semaphore_null.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1944,14 +1964,9 @@
               <FilePath>..\awtk-port\platform.c</FilePath>
             </File>
             <File>
-              <FileName>mutex_null.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\platforms\raw\mutex_null.c</FilePath>
-            </File>
-            <File>
-              <FileName>fs_os.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\awtk\src\platforms\raw\fs_os.c</FilePath>
+              <FileName>awtk_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\awtk-port\awtk_config.h</FilePath>
             </File>
           </Files>
         </Group>

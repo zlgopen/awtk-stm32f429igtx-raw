@@ -141,7 +141,7 @@ int main(void) {
   KEY_Init();                       //初始化按键
   SDRAM_Init();                     // SDRAM初始化
   LCD_Init();                       // LCD初始化
-  W25QXX_Init();                    //初始化W25Q256
+  //W25QXX_Init();                    //初始化W25Q256
 
   tp_dev.init();
 

@@ -1429,9 +1429,9 @@
               <FilePath>..\awtk\src\clip_board\clip_board_default.c</FilePath>
             </File>
             <File>
-              <FileName>guage_pointer.c</FileName>
+              <FileName>gauge_pointer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\ext_widgets\guage\guage_pointer.c</FilePath>
+              <FilePath>..\awtk\src\ext_widgets\gauge\gauge_pointer.c</FilePath>
             </File>
             <File>
               <FileName>grid_item.c</FileName>
@@ -2174,9 +2174,9 @@
               <FilePath>..\awtk\src\ext_widgets\time_clock\time_clock.c</FilePath>
             </File>
             <File>
-              <FileName>guage.c</FileName>
+              <FileName>gauge.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\awtk\src\ext_widgets\guage\guage.c</FilePath>
+              <FilePath>..\awtk\src\ext_widgets\gauge\gauge.c</FilePath>
             </File>
             <File>
               <FileName>text_selector.c</FileName>

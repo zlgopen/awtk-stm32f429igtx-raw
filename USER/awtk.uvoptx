@@ -2754,8 +2754,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\src\ext_widgets\guage\guage_pointer.c</PathWithFileName>
-      <FilenameWithoutPath>guage_pointer.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\src\ext_widgets\gauge\gauge_pointer.c</PathWithFileName>
+      <FilenameWithoutPath>gauge_pointer.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -4406,8 +4406,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\awtk\src\ext_widgets\guage\guage.c</PathWithFileName>
-      <FilenameWithoutPath>guage.c</FilenameWithoutPath>
+      <PathWithFileName>..\awtk\src\ext_widgets\gauge\gauge.c</PathWithFileName>
+      <FilenameWithoutPath>gauge.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

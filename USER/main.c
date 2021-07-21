@@ -45,12 +45,12 @@ static uint8_t* s_framebuffers[3];
 
 static lcd_begin_frame_t org_begin_frame;
 
-ret_t lcd_stmf429_begin_frame(lcd_t* lcd, const rect_t* dirty_rect) {
+ret_t lcd_stmf429_begin_frame(lcd_t* lcd, const dirty_rects_t* dirty_rects) {
   if (lcd_is_swappable(lcd)) {
     uint32_t i = 0;
     lcd_mem_t* mem = (lcd_mem_t*)lcd;
 
-    mem->next_fb = NULL;		
+    mem->next_fb = NULL;
     mem->online_fb = NULL;
     mem->offline_fb = NULL;
     for (i = 0; i < ARRAY_SIZE(s_framebuffers); i++) {
@@ -60,8 +60,8 @@ ret_t lcd_stmf429_begin_frame(lcd_t* lcd, const rect_t* dirty_rect) {
         break;
       }
     }
-		
-		org_begin_frame(lcd, dirty_rect);
+
+    org_begin_frame(lcd, dirty_rects);
   }
 
   return RET_OK;

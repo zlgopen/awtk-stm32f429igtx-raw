@@ -23,9 +23,10 @@
 #include "tkc/mem.h"
 #include "base/timer.h"
 #include "tkc/platform.h"
+#include "platforms/common/sys_tick_common.inc"
 
 uint64_t get_time_ms64() {
-  return HAL_GetTick();
+  return tk_sys_tick_get_tick64();
 }
 
 void sleep_ms(uint32_t ms) {

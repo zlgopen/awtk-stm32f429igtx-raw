@@ -45,7 +45,7 @@
  * 如果定义本宏，使用标准的UNICODE换行算法，除非资源极为有限，请定义本宏。
  *
  */
-#define WITH_UNICODE_BREAK 1
+//#define WITH_UNICODE_BREAK 1
 
 /**
  * 如果定义本宏，将图片解码成BGRA8888格式，否则解码成RGBA8888的格式。

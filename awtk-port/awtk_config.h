@@ -48,6 +48,12 @@
 //#define WITH_UNICODE_BREAK 1
 
 /**
+ * 对于低端平台，如果不使用 fscript 模块，请定义本宏。
+ *
+ */
+#define WITHOUT_FSCRIPT 1
+
+/**
  * 如果定义本宏，将图片解码成BGRA8888格式，否则解码成RGBA8888的格式。
  *
  */

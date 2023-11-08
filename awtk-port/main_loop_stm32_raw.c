@@ -19,6 +19,7 @@
  *
  */
 
+#include "key.h"
 #include "sys.h"
 #include "delay.h"
 #include "usart.h"
@@ -50,7 +51,36 @@ extern u32* ltdc_framebuf[2];
 uint8_t platform_disaptch_input(main_loop_t* loop) {
   int x = 0;
   int y = 0;
+  static int prev_key = 0;
   uint8_t key = KEY_Scan(0);
+
+  switch (key) {
+  case KEY0_PRES: {
+    key = TK_KEY_RIGHT;
+    break;
+  }
+  case KEY1_PRES: {
+    key = TK_KEY_DOWN;
+    break;
+  }
+  case KEY2_PRES: {
+    key = TK_KEY_RETURN;
+    break;
+  }
+  case WKUP_PRES: {
+    key = TK_KEY_UP;
+    break;
+  }
+  default: { key = 0; }
+  }
+
+  if (key != prev_key) {
+    main_loop_post_key_event(main_loop(), FALSE, prev_key);
+    main_loop_post_key_event(main_loop(), TRUE, key);
+  } else {
+    main_loop_post_key_event(main_loop(), TRUE, key);
+  }
+  prev_key = key;
 
   tp_dev.scan(0);
 

@@ -10,16 +10,13 @@
 
 1. 获取源码
 
+> 将三个仓库取到同一个目录下：
 ```
-git clone https://github.com/zlgopen/awtk-stm32f429igtx-raw.git
-cd awtk-stm32f429igtx-raw
 git clone https://github.com/zlgopen/awtk.git
+git clone https://github.com/zlgopen/awtk-demo-app.git
+git clone https://github.com/zlgopen/awtk-stm32f429igtx-raw.git
 ```
 
 2. 用 keil 打开 user/awtk.uvproj
 
 > 本项目采用的 3framebuffer，如果希望使用 2framebuffer 请参考 767 的移植。
-
-## 注意事项
-
-> 由于 1 M 无法放下 demoui 完整的资源，所以部分功能无法展示。
